@@ -4,7 +4,7 @@
 body {
     margin:0;
     /* border-top:5px solid black; */
-    background-color: rgb(228, 245, 228);
+    /* background-color: rgb(228, 245, 228); */
 }
 
 header.flex-container{
@@ -15,6 +15,10 @@ a{
     text-decoration: none;
     color: rgb(112, 128, 23);
     font-family: 'Hind Vadodara' ;
+
+}
+a:hover{
+    color:black;
 }
 h1,h2,h3,h4,h5,h6,a {
 text-transform: uppercase;
@@ -27,6 +31,7 @@ nav > ul > li {
   
     display: inline ;
     margin-right:25px;
+    
 } 
 
 article {
@@ -72,6 +77,7 @@ section {
     border-bottom:2px solid gray;
     width:100%;
     display:block;
+    text-align: center;
    
 }
 
@@ -132,7 +138,7 @@ white-space: pre;
     content:'#D2FF2F \a rgb(210, 255, 47)';
 white-space: pre;
 }
-
+/* 
 .color-list li:nth-child(4){
     background-color:rgb(228, 245, 228);
     color: black;
@@ -144,22 +150,22 @@ white-space: pre;
 .color-list li:nth-child(4):after {
     content:'#E4F5E4 \a rgb(228, 245, 228)';
 white-space: pre;
-}
-/* .logo-box{
+} */
+.logo-box{
     position:relative;
-    width: auto;
+    width: 105%;
     height:150px;
     padding:10px;
     background-color:black;
    
-} */
+}
 
-.logo-box:after {
+/* .logo-box:after {
     position: relative;
     left: 281px;
     top: 0px;
-   
-}
+  
+} */
 
 figure {
     border-bottom:5px solid grey;
