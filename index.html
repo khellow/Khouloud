@@ -1,0 +1,17 @@
+---
+layout: default
+title: main page
+---
+
+{% for photography in site.photography %}	
+
+{{photography.content}}	
+
+{% endfor %}
+
+
+<ul>
+{% for design in site.design%}
+  <li><a href="{{design.url}}">{{ design.title }} | test</a></li>
+{% endfor%}
+</ul>
