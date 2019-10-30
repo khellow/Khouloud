@@ -1,1 +1,22 @@
-/**/
+.main-nav {
+background-color: $base-color;
+color:white;
+display:flex;
+flex-flow: row wrap;
+justify-content: space-between;
+width:100%;
+height:100px;
+font-family:Helvetica;
+  
+}
+a{
+color: white;
+text-decoration:none;
+}
+
+nav > ul {
+margin: 0;
+padding: 0;
+display: inline;
+
+}
