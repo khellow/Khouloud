@@ -1,3 +1,14 @@
+.portfolio-container {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.portfolio-container, .portfolio-container > li {
+  text-decoration:none;
+  list-style:none;
+}
+
 .card-container{
   width:250px;
   height:320px;
