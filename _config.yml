@@ -2,7 +2,8 @@ title: Khouloud Portfolio
 email: khouloud.beydoun01@stclairconnect.ca
 baseurl: "https://khellow.github.io/Khouloud/"
 url: "https://khellow.github.io/Khouloud/"
-
+sass:
+  style: compact
  
   collections:
   illustrations:
@@ -18,6 +19,5 @@ url: "https://khellow.github.io/Khouloud/"
     permalink: /:collection/:path/
       
 
-sass:
-  style: compact # possible values: nested expanded compact compressed
+
   
