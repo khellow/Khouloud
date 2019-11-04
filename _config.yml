@@ -1,6 +1,24 @@
 title: Khouloud Portfolio
-email: kholoudbey@hotmail.com
+email: khouloud.beydoun01@stclairconnect.ca
 baseurl: ""
-url: "Khouloud"
+url: "/Khouloud"
 sass:
   style: compact
+  
+  collections:
+  illustrations:
+    output: true
+    permalink: /:collection/:path/
+     
+  photography:
+    output: true
+    permalink: /:collection/:path/
+      
+  design:
+    output: true
+    permalink: /:collection/:path/
+      
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+  
